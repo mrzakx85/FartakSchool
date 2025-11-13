@@ -1,0 +1,346 @@
+* {
+  font-family: vazir;
+}
+body {
+  /* background-color: #e7e0cc; */
+  background-image: url(./assests/Wireframe\ -\ 1.png);
+  background-repeat: repeat-y;
+
+  color: #003049;
+}
+
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 300px;
+  src: url(./irsans_p30download.com.ttf);
+}
+
+.nav {
+  display: grid;
+  direction: rtl;
+  grid-template-columns: 17% 65% 18%;
+  border-bottom: 2px solid #003049;
+  background-color: #23898d;
+  width: 1365px;
+  margin-left: -8px;
+  margin-top: -7.8px;
+  position: fixed;
+  top: 7;
+}
+
+.header-buttons {
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18%;
+  margin: auto;
+  width: 80%;
+}
+
+.logo {
+  width: 220px;
+  padding: 5px 20px;
+}
+
+/*  */
+.socialmedia {
+  display: flex;
+  gap: 0.5em;
+  margin: auto;
+}
+.card1 {
+  width: 42px;
+  height: 42px;
+  outline: none;
+  border: none;
+  border-radius: 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.instagram {
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 42px;
+  height: 42px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.twitter {
+  fill: #03a9f4;
+}
+
+.card3 {
+  width: 42px;
+  height: 42px;
+  outline: none;
+  border: none;
+  border-radius: 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.card4 {
+  width: 42px;
+  height: 42px;
+  outline: none;
+  border: none;
+  border-radius: 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.discord {
+  fill: #8c9eff;
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+
+.card2:hover .twitter {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.card3:hover .github {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+  fill: white;
+}
+/*  */
+
+.navBtn {
+  width: 120px;
+  padding: 0;
+  border: none;
+  transform-origin: center;
+  font-family: "Gochi Hand", cursive;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: #00000000;
+  display: grid;
+}
+
+.navBtn span {
+  display: block;
+  padding: 0.5rem 0rem;
+  border-radius: 5px;
+  font-family: vazir;
+  color: white;
+}
+
+.navBtn:active {
+  transform: translateY(2px);
+  padding-bottom: 0px;
+  outline: 0;
+}
+
+/* TITLE INFO */
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 550px;
+  border-radius: 24px;
+  line-height: 1.6;
+  padding: 20px;
+  direction: rtl;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: #34a0a4;
+}
+
+.para {
+  font-size: 20px;
+  line-height: 43px;
+  color: white;
+}
+
+/* SLIDE SHOW */
+.image-slideshow {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+.slideshow-img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.abilities {
+  margin-top: 170px;
+  background-image: url(./assests/Group\ 83.png);
+  background-repeat: no-repeat;
+}
+
+.about-school {
+  text-align: center;
+  width: 1000px;
+  font-size: 25px;
+  line-height: 40px;
+  margin: auto;
+  color: #003049;
+}
+
+.title-of-school-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.title-about-school {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #34a0a4;
+  padding: 30px 30px;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+/* FEATURES */
+
+.Feature-box {
+  display: grid;
+  grid-template-columns: 23% 23% 23%;
+  justify-content: space-evenly;
+  margin: auto;
+  height: 500px;
+  margin-top: 80px;
+  width: 68%;
+}
+
+.Feature {
+  width: 160px;
+  padding: 20px;
+  height: 160px;
+  box-shadow: #219dbc13 0px 50px 100px -20px, #00000075 0px 30px 60px -30px;
+  border-radius: 19px;
+  background-color: #34a0a4d0;
+  border: 2px solid #34a0a4d0;
+  font-size: 17px;
+  line-height: 40px;
+  direction: rtl;
+  text-align: right;
+  color: white;
+}
+
+.featureImg {
+  width: 170px;
+  margin: auto;
+  top: 0;
+}
+
+.Feature-title {
+}
+
+/* TIMER */
+
+.timer-box {
+  margin-top: 100px;
+}
+
+.countdoun-box {
+  background-image: url(./assests/Group\ 85.png);
+  margin-left: -9px;
+  width: 1351px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 110% 20%;
+}
+
+.timer-titr {
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  font-size: 70px;
+}
+
+.countdown {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: auto;
+  height: 300px;
+}
+
+.timer {
+  background-image: url(./assests/Ellipse\ 112.png);
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 12% 10%;
+}
+
+.timer-value {
+  font-size: 60px;
+  text-align: center;
+}
+
+.timer-title {
+  font-size: 40px;
+  text-align: center;
+  width: 300px;
+  margin-top: -10px;
+}
+
+.footer {
+  background-image: url(./assests/footer.png);
+  width: 1351px;
+  height: 370px;
+  margin-left: -8px;
+  margin-bottom: -8px;
+}
