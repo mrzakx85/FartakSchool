@@ -307,8 +307,7 @@ body {
 
 @media screen and (max-width: 550px) {
   .topestTitle {
-    font-size: 35px;
-    padding: 90px 0px;
+    display: none;
   }
   .logo {
     width: 170px;
@@ -328,28 +327,11 @@ body {
 
 @media screen and (max-width: 500px) {
   .topestTitle {
-    font-size: 35px;
-    padding: 65px 0px;
-  }
-}
-
-
-@media screen and (max-width: 400px) {
-  .topestTitle {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .topestTitle {
     display: none;
   }
 }
 
 @media screen and (max-width: 200px) {
-  .topestTitle {
-    display: none;
-  }
   .topImg1 {
     display: none;
   }
