@@ -1020,7 +1020,7 @@ body {
 /*  */
 /* RESPONSIVE */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   body {
     background: none;
   }
@@ -1080,7 +1080,7 @@ body {
   }
 
   .titr1 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 45px;
     width: 100%;
     text-align: center;
@@ -1530,3 +1530,4 @@ body {
   width: 100%;
   }
 }
+
