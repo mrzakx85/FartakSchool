@@ -13,7 +13,8 @@
   <body>
     <div style="display: flex; justify-content: center">
       <nav class="navbar">
-        <img class="logo" src="../imgs/logo.jpg" alt="" />
+       <img class="logo" src="../imgs/logo.jpg" alt="" />
+        <img class="logo2" src="../imgs/logo2.jpg" alt="" />
         <div class="header-buttons">
           <button class="navBtn" href="" id="mainPage">
             <span>صفحه اصلی</span>
@@ -113,17 +114,34 @@
             </div>
           </div>
         </div>
-        <button class="menu">منو</button>
+        <button class="menu" id="openSlideNav">
+          <img src="../imgs/menu-dots-svgrepo-com.svg" />
+        </button>
       </nav>
     </div>
 
-    <div class="aboutus-ttl">
-      <img
-        style="position: absolute; left: 0; width: 100%; top: 0"
-        src="../imgs/Frame 1.png"
-        alt=""
-      />
-      <div class="ttl">درباره ما</div>
+    
+
+     <div class="slidablenav-box">
+      <div class="slidablenav">
+        <button class="SlideNavBtn" href="" id="mainPage">
+          <span>صفحه اصلی</span>
+        </button>
+        <button class="SlideNavBtn" id="educationSystem">
+          <span>سیستم آموزشی</span>
+        </button>
+        <button class="SlideNavBtn" id="aboutUs"><span>درباره ما</span></button>
+        <button class="SlideNavBtn" id="contact">
+          <span>ارتباط با ما</span>
+        </button>
+      </div>
+    </div>
+
+    <img class="topImg2" src="../imgs/top-mobile-bg-img.png" alt="" />
+    <img class="topImg1" src="../imgs/top-bg-img.png" alt="" />
+
+    <div class="tit">
+      <p class="edicationTitle">درباره ما</p>
     </div>
 
     <main>
@@ -176,7 +194,7 @@
       </div>
 
       <div class="all-features">
-        <div class="features-info" id="f1-target">
+        <div class="features1-info" id="f1-target">
           <div class="info-feature">
             <h1 class="featureInfoTitle">ارتباط با خانواده</h1>
             <p class="featureInformation">
@@ -195,7 +213,7 @@
           <img class="featureInfoImg" src="../imgs/aboutus/featureImg1.png" alt="">
         </div>
 
-        <div style="direction: ltr;" class="features-info" id="f2-target">
+        <div style="direction: ltr;" class="features2-info" id="f2-target">
           <div class="info-feature">
             <h1 class="featureInfoTitle">ارتباط با بچه ها</h1>
             <p class="featureInformation">
@@ -211,14 +229,14 @@
           <img class="featureInfoImg" src="../imgs/aboutus/featureImg2.png" alt="">
         </div>
 
-        <div class="features-info" id="f3-target">
+        <div class="features3-info" id="f3-target">
           <div class="info-feature">
             <h1 class="featureInfoTitle">آینده فرتاکی ها</h1>
             <p class="featureInformation">
               هدف نهایی ما پرورش نسلی است که نه تنها در درس ها برتر یاشند ، بلکه
               بتوانند شهروندانی فعال ، متفکر و با اراده باشند . ما نسلی را تربیت
               می کنیم که "دانستن" را با "عمل کردن" پیوند میزنند و آماده اند تا
-              با مسئولیت پذیری ، تاثیر مثبتی بر جهان اطراف خود بگذارند .
+              با مسئولیت پذیری ، تاثیر مثبتی بر جهان اطراف خود بگذارند 
               <br />
               آمادگی برای دنیای فردا : کودکان فرتاک با ابزار های دیجیتال آشنا میسوند و مهارت های لازم برای تعامل با فناوری های آینده را کسب می کنند
             </p>
@@ -229,9 +247,10 @@
       </div>
     </main>
 
-    <footer style="margin-top: 100px;">
-      <img class="footer-bg" src="../imgs/footer.png" alt="">
-    </footer>
+    <div class="footer">
+      <div class="footer-bg"></div>
+      <div class="borttom-distance"></div>
+    </div>
 
     <script src="./commun.js"></script>
   </body>
