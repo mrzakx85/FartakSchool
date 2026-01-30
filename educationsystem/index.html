@@ -10,6 +10,7 @@
     <div style="display: flex; justify-content: center">
       <nav class="navbar">
         <img class="logo" src="../imgs/logo.jpg" alt="" />
+        <img class="logo2" src="../imgs/logo2.jpg" alt="" />
         <div class="header-buttons">
           <button class="navBtn" id="mainPage"><span>صفحه اصلی</span></button>
           <button class="navBtn" id="educationSystem">
@@ -107,29 +108,38 @@
             </div>
           </div>
         </div>
-        <button class="menu">منو</button>
+        <button class="menu" id="openSlideNav">
+          <img src="../imgs/menu-dots-svgrepo-com.svg" />
+        </button>
       </nav>
     </div>
 
-    <main>
-      <div class="aboutus-ttl">
-        <img
-          style="position: absolute; left: 0; width: 100%; top: 0"
-          src="../imgs/Frame 1.png"
-          alt=""
-        />
+    <!--  -->
+    <div class="slidablenav-box">
+      <div class="slidablenav">
+        <button class="SlideNavBtn" href="" id="mainPage">
+          <span>صفحه اصلی</span>
+        </button>
+        <button class="SlideNavBtn" id="educationSystem">
+          <span>سیستم آموزشی</span>
+        </button>
+        <button class="SlideNavBtn" id="aboutUs"><span>درباره ما</span></button>
+        <button class="SlideNavBtn" id="contact">
+          <span>ارتباط با ما</span>
+        </button>
       </div>
-      <div class="aboutus-ttl">
-        <img
-          style="position: absolute; left: 0; width: 100%; top: 0"
-          src="../imgs/Frame 1.png"
-          alt=""
-        />
-        <div class="ttl">سیستم آموزشی</div>
-      </div>
+    </div>
+    <!--  -->
+    <img class="topImg2" src="../imgs/top-mobile-bg-img.png" alt="" />
+    <img class="topImg1" src="../imgs/top-bg-img.png" alt="" />
 
+    <div class="tit">
+      <p class="edicationTitle">سیستم آموزشی</p>
+    </div>
+
+    <main>
       <!-- edication system -->
-      <div style="width: 100%; margin-top: 250px; position: relative">
+      <div class="all-ads">
         <div class="education-box">
           <div class="edications">
             <svg
@@ -451,9 +461,10 @@
       </div>
     </main>
 
-    <footer style="margin-top: 150px">
-      <img class="footer-bg" src="../imgs/footer.png" alt="" />
-    </footer>
+    <div class="footer">
+      <div class="footer-bg"></div>
+      <div class="borttom-distance"></div>
+    </div>
 
     <script src="./education.js"></script>
   </body>
