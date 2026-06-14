@@ -1,0 +1,227 @@
+@font-face {
+  font-family: vazir;
+  src: url(../fonts/irsans_p30download.com.ttf);
+}
+
+body {
+  background-color: #111841 ;
+  font-family: vazir;
+  color: #f0f8ff;
+}
+
+button {
+  font-family: vazir;
+}
+
+.preRegister {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  direction: rtl;
+}
+
+.preRegister-informations {
+  height: 100%;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.pr-header {
+  direction: rtl;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 40% 70%;
+}
+
+.pr-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.header-title {
+  font-size: 50px;
+  color: #ffb700;
+}
+
+.header-info {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.pr-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70%;
+}
+
+/*  */
+
+.more-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-icon {
+  background-color: #c9bc4c36;
+  border: 1px solid #ffb700b4;
+  color: #ffb700b4;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-header {
+  font-size: 14px;
+  color: #f0f8ffa9;
+}
+
+/*  */
+/*  */
+/*  */
+
+.preRegister-inputs {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 8% 90%;
+  row-gap: 10px;
+}
+
+.back-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+}
+
+.backBtn {
+  margin: auto;
+  width: 94%;
+  height: 100%;
+  background-color: #ffffff1a;
+  border-radius: 15px;
+  border: 1px solid #f0f8ff1a;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 15px;
+  color: #f0f8ffc7;
+  cursor: pointer;
+}
+.backBtn:hover {
+  background-color: #d0cce428;
+}
+
+.back-icon {
+  background-color: #ffffff1a;
+  border-radius: 15px;
+  border: 1px solid #f0f8ff1a;
+  margin: auto;
+  padding: 12px;
+}
+
+/*  */
+
+.inputs {
+  margin: auto;
+  width: 94%;
+  height: 100%;
+  background-color: #0e1335;
+  border-radius: 25px;
+  border: 1px solid #f0f8ff31;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputs-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 30px;
+  padding-right: 40px;
+  padding-top: 30px;
+  width: 94%;
+}
+
+.input-topic {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-header {
+  width: 87%;
+}
+
+.input-title {
+  padding-right: 12px;
+}
+
+.input-title.empty-seachbox {
+  color: rgb(255, 77, 46);
+}
+
+.input {
+  width: 87%;
+}
+
+.orig-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-family: vazir;
+  border: 1px solid #f0f8ff7c;
+  outline: none;
+  border-radius: 10px;
+  background-color: #f0f8ff1a;
+  color: #f0f8ff;
+}
+
+.orig-input:focus {
+  background: none;
+  border: 1px solid #ffb700;
+}
+
+/*  */
+
+.preRegisterBtn-box {
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.checkbox-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 10px;
+}
+
+.preRegister-btn {
+  padding: 15px 30px;
+  background-color: #ffb700;
+  color: #111841;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.preRegister-btn:hover {
+  background-color: #ffb700dc;
+}
+
+.all-err {
+  color: rgb(255, 77, 46);
+}
