@@ -46,32 +46,30 @@ button {
   font-family: vazir;
 }
 
-.navbar-box {
+.nav {
   direction: rtl;
+  background-color: color-mix(in srgb, #0a0e27 80%, transparent);
+  z-index: 10;
+  backdrop-filter: blur(5px);
+  display: grid;
+  grid-template-columns: 24% 60% 16%;
+  margin: auto;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: color-mix(in srgb, #0a0e27 80%, transparent);
-  z-index: 10;
-  backdrop-filter: blur(5px);
-}
-
-.nav {
-  display: grid;
-  grid-template-columns: 25% 60% 15%;
-  width: 95%;
-  margin: auto;
 }
 
 .logo-box {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-  width: 45%;
+  width: 35%;
   padding: 10px 20px;
 }
 
@@ -95,7 +93,6 @@ button {
 }
 
 .log-box {
-  /* padding: 10px 0px 0px 0px; */
   margin: auto;
   width: 100%;
 }
@@ -278,26 +275,27 @@ button {
 }
 
 .difference-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  padding-top: 50px;
-}
-
-.difference-title {
-  display: flex;
-  justify-content: center;
+  height: 150px;
 }
 
 .title2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 355px;
+  align-items: center;
+  margin: auto;
+  width: 26%;
   font-size: 45px;
 }
 
-.title2-continue {
-  color: #ffb700;
+.differece-info {
+  width: 100%;
+  font-size: 16px;
 }
 
 .difference-items {
@@ -308,6 +306,12 @@ button {
   row-gap: 30px;
   margin: auto;
   margin-top: 50px;
+}
+
+.icon-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .items {
@@ -363,6 +367,7 @@ button {
   line-height: 30px;
   text-align: justify;
   cursor: default;
+  margin-top: 0;
 }
 
 .difference-footer {
@@ -393,21 +398,13 @@ button {
   margin-top: 350px;
 }
 
-.education-title {
-  display: flex;
-  justify-content: center;
-}
-
 .title3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: auto;
   width: 41%;
   font-size: 45px;
-}
-
-.title3-continue {
-  color: #ffb700;
 }
 
 .education-items {
@@ -602,6 +599,15 @@ button {
   line-height: 30px;
 }
 
+.preRegister-moreInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 130px;
+}
+
 .preRegister-btn {
   background-color: color-mix(in srgb, #ffb700 85%, transparent);
   color: #0a0e27;
@@ -616,6 +622,17 @@ button {
 .preRegister-btn:hover {
   background-color: color-mix(in srgb, #ffb700 77%, transparent);
 }
+
+/*  */
+/*  */
+/*  */
+.mobile-nav {
+  display: none;
+}
+
+/*  */
+/*  */
+/*  */
 
 @media screen and (max-width: 500px) {
   .nav {
