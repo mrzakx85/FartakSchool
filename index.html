@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="navbar-box">
+    <header>
       <div class="nav">
         <!--  -->
         <div class="logo-box">
@@ -25,6 +25,18 @@
           <button class="login-btn">ورود</button>
         </div>
         <!--  -->
+      </div>
+
+      <div class="mobile-nav">
+        <div class="mobileNavItems-box">
+          <button class="mobile-navItems" id="navPreregister">
+            پیش ثبت نام
+          </button>
+          <button class="mobile-navItems" id="gallery">گالری</button>
+          <button class="mobile-navItems" id="facility">امکانات</button
+          ><button class="mobile-navItems" id="plans">برنامه ها</button>
+          <button class="mobile-navItems" id="contact">ارتباط با ما</button>
+        </div>
       </div>
     </header>
 
@@ -114,23 +126,6 @@
             <svg
               style="color: #ffce53"
               xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
-              viewBox="0 0 512 512"
-            >
-              <title>Graduate Cap SVG Icon</title>
-              <path
-                fill="currentColor"
-                d="M256 89.61L22.486 177.18L256 293.937l111.22-55.61l-104.337-31.9A16 16 0 0 1 256 208a16 16 0 0 1-16-16a16 16 0 0 1 16-16l-2.646 8.602l18.537 5.703l.008.056l27.354 8.365L455 246.645v12.146a16 16 0 0 0-7 13.21a16 16 0 0 0 7.293 13.406C448.01 312.932 448 375.383 448 400c16 10.395 16 10.775 32 0c0-24.614-.008-87.053-7.29-114.584A16 16 0 0 0 480 272a16 16 0 0 0-7-13.227v-25.42L413.676 215.1l75.838-37.92zM119.623 249L106.5 327.74c26.175 3.423 57.486 18.637 86.27 36.627c16.37 10.232 31.703 21.463 44.156 32.36c7.612 6.66 13.977 13.05 19.074 19.337c5.097-6.288 11.462-12.677 19.074-19.337c12.453-10.897 27.785-22.128 44.156-32.36c28.784-17.99 60.095-33.204 86.27-36.627L392.375 249h-6.25L256 314.063L125.873 249z"
-              />
-            </svg>
-            <p class="title-footer-info">تضمین موفقیت فرزندان شما</p>
-          </div>
-          <!--  -->
-          <div class="title-footer">
-            <svg
-              style="color: #ffce53"
-              xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
               viewBox="0 0 16 16"
@@ -143,6 +138,23 @@
             </svg>
             <p class="title-footer-info">موسسه معتبر</p>
           </div>
+          <!--  -->
+          <div class="title-footer">
+            <svg
+              style="color: #ffce53"
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              viewBox="0 0 512 512"
+            >
+              <title>Graduate Cap SVG Icon</title>
+              <path
+                fill="currentColor"
+                d="M256 89.61L22.486 177.18L256 293.937l111.22-55.61l-104.337-31.9A16 16 0 0 1 256 208a16 16 0 0 1-16-16a16 16 0 0 1 16-16l-2.646 8.602l18.537 5.703l.008.056l27.354 8.365L455 246.645v12.146a16 16 0 0 0-7 13.21a16 16 0 0 0 7.293 13.406C448.01 312.932 448 375.383 448 400c16 10.395 16 10.775 32 0c0-24.614-.008-87.053-7.29-114.584A16 16 0 0 0 480 272a16 16 0 0 0-7-13.227v-25.42L413.676 215.1l75.838-37.92zM119.623 249L106.5 327.74c26.175 3.423 57.486 18.637 86.27 36.627c16.37 10.232 31.703 21.463 44.156 32.36c7.612 6.66 13.977 13.05 19.074 19.337c5.097-6.288 11.462-12.677 19.074-19.337c12.453-10.897 27.785-22.128 44.156-32.36c28.784-17.99 60.095-33.204 86.27-36.627L392.375 249h-6.25L256 314.063L125.873 249z"
+              />
+            </svg>
+            <p class="title-footer-info">تضمین موفقیت فرزندان شما</p>
+          </div>
         </div>
       </div>
 
@@ -152,15 +164,11 @@
         <!--  -->
         <div class="difference-box">
           <div class="difference-header">
-            <div class="difference-title">
-              <h1 class="title2">
-                تفاوت های
-                <br />
-                <span class="title2-continue">فرتاک</span>
-              </h1>
-            </div>
+            <h1 class="title2">
+              تفاوت های <span style="color: #ffb700"> فرتاک</span>
+            </h1>
             <!--  -->
-            <div>
+            <div class="differece-info">
               ما باور داریم هر کودک یک ستاره است که با آموزش درست ،میتواند
               بدرخشد
             </div>
@@ -168,35 +176,38 @@
           <!--  -->
           <div class="difference-items">
             <div class="items">
-              <div class="item-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 24 24"
-                >
-                  <title>Ai Book Open SVG Icon</title>
-                  <g fill="none">
-                    <path
-                      d="M12 6.5V22c0-1.657-2.686-3-6-3c-1.537 0-2.938.29-4 .764v-15.5S3 3.5 6 3.5c3.314 0 6 1.343 6 3"
-                    />
-                    <path
-                      stroke="currentColor"
-                      stroke-width="2"
-                      d="m19.25 3l.52 1.23l1.23.52l-1.23.52l-.52 1.23l-.52-1.23l-1.23-.52l1.23-.52z"
-                    />
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="square"
-                      stroke-width="2"
-                      d="M12 22V6.5M12 22c0-1.657 2.686-3 6-3c1.537 0 2.939.29 4 .764V10M12 22c0-1.657-2.686-3-6-3c-1.537 0-2.938.29-4 .764v-15.5S3 3.5 6 3.5c3.314 0 6 1.343 6 3m0 0c0-.613.368-1.184 1-1.659"
-                    />
-                  </g>
-                </svg>
+              <div class="icon-title">
+                <div class="item-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>Ai Book Open SVG Icon</title>
+                    <g fill="none">
+                      <path
+                        d="M12 6.5V22c0-1.657-2.686-3-6-3c-1.537 0-2.938.29-4 .764v-15.5S3 3.5 6 3.5c3.314 0 6 1.343 6 3"
+                      />
+                      <path
+                        stroke="currentColor"
+                        stroke-width="2"
+                        d="m19.25 3l.52 1.23l1.23.52l-1.23.52l-.52 1.23l-.52-1.23l-1.23-.52l1.23-.52z"
+                      />
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="square"
+                        stroke-width="2"
+                        d="M12 22V6.5M12 22c0-1.657 2.686-3 6-3c1.537 0 2.939.29 4 .764V10M12 22c0-1.657-2.686-3-6-3c-1.537 0-2.938.29-4 .764v-15.5S3 3.5 6 3.5c3.314 0 6 1.343 6 3m0 0c0-.613.368-1.184 1-1.659"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <p class="item-title">تعالی تحصیلی</p>
               </div>
               <!--  -->
+
               <div class="about-item">
-                <p class="item-title">تعالی تحصیلی</p>
                 <p class="item-info">
                   برنامه درسی دقیق طراحی شده برای چالش و الهام بخش، با نرخ
                   موفقیت 98٪ در امتحانات ملی.
@@ -205,56 +216,60 @@
             </div>
             <!--  -->
             <div class="items">
-              <div class="item-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 24 24"
-                >
-                  <title>Baseline Person SVG Icon</title>
-                  <path
-                    fill="currentColor"
-                    d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4"
-                  />
-                </svg>
+              <div class="icon-title">
+                <div class="item-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>Baseline Person SVG Icon</title>
+                    <path
+                      fill="currentColor"
+                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4"
+                    />
+                  </svg>
+                </div>
+                <p class="item-title">معلمان خبره</p>
               </div>
               <!--  -->
               <div class="about-item">
-                <p class="item-title">معلمان خبره</p>
                 <p class="item-info">
                   دانشکده ما شامل دارندگان دکترا و متخصصان صنعت است که به پرورش
-                  پتانسیل هر دانشجو اختصاص داده شده اند..
+                  پتانسیل هر دانشجو اختصاص داده شده
                 </p>
               </div>
             </div>
             <!--  -->
             <div class="items">
-              <div class="item-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 48 48"
-                >
-                  <title>Code Computer SVG Icon</title>
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
+              <div class="icon-title">
+                <div class="item-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 48 48"
                   >
-                    <path
-                      d="M21 6H9a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V21M24 34v8"
-                    />
-                    <path d="m32 6l-4 4l4 4m6-8l4 4l-4 4M14 42h20" />
-                  </g>
-                </svg>
+                    <title>Code Computer SVG Icon</title>
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="4"
+                    >
+                      <path
+                        d="M21 6H9a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V21M24 34v8"
+                      />
+                      <path d="m32 6l-4 4l4 4m6-8l4 4l-4 4M14 42h20" />
+                    </g>
+                  </svg>
+                </div>
+                <p class="item-title">تکنولوژی مدرن</p>
               </div>
               <!--  -->
               <div class="about-item">
-                <p class="item-title">تکنولوژی مدرن</p>
                 <p class="item-info">
                   کلاس های درس هوشمند و آزمایشگاه کامپیوتر برای همه دانش آموزان.
                 </p>
@@ -262,23 +277,26 @@
             </div>
             <!--  -->
             <div class="items">
-              <div class="item-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 24 24"
-                >
-                  <title>Bxs Cctv SVG Icon</title>
-                  <path
-                    d="M18.618 7.462L6.403 2.085a1.007 1.007 0 0 0-.77-.016a1.002 1.002 0 0 0-.552.537l-3 7a1 1 0 0 0 .525 1.313L9.563 13.9L8.323 17H4v-3H2v8h2v-3h4.323c.823 0 1.552-.494 1.856-1.258l1.222-3.054l3.419 1.465a1 1 0 0 0 1.311-.518l3-6.857a1 1 0 0 0-.513-1.316zm1.312 8.91l-1.858-.742l1.998-5l1.858.741z"
-                    fill="currentColor"
-                  />
-                </svg>
+              <div class="icon-title">
+                <div class="item-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>Bxs Cctv SVG Icon</title>
+                    <path
+                      d="M18.618 7.462L6.403 2.085a1.007 1.007 0 0 0-.77-.016a1.002 1.002 0 0 0-.552.537l-3 7a1 1 0 0 0 .525 1.313L9.563 13.9L8.323 17H4v-3H2v8h2v-3h4.323c.823 0 1.552-.494 1.856-1.258l1.222-3.054l3.419 1.465a1 1 0 0 0 1.311-.518l3-6.857a1 1 0 0 0-.513-1.316zm1.312 8.91l-1.858-.742l1.998-5l1.858.741z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+                <p class="item-title">محیط امن</p>
               </div>
+
               <!--  -->
               <div class="about-item">
-                <p class="item-title">محیط امن</p>
                 <p class="item-info">
                   امنیت 24 ساعته، نظارت بر دوربین های مداربسته و سیاست جامع ضد
                   قلدری ایمنی دانش آموزان را تضمین می کند..
@@ -287,23 +305,25 @@
             </div>
             <!--  -->
             <div class="items">
-              <div class="item-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 24 24"
-                >
-                  <title>Arrow Upload Progress SVG Icon</title>
-                  <path
-                    fill="currentColor"
-                    d="M11.025 21.95q-1.9-.2-3.537-1.037t-2.863-2.175T2.7 15.675T2 12q0-3.925 2.613-6.75t6.412-3.2v2.025q-2.975.375-5 2.613T4 12t2.025 5.313t5 2.612zm0-4.95v-6.175l-2.6 2.6L7.025 12l5-5l5 5l-1.425 1.4l-2.575-2.575V17zm2 4.95v-2.025q1.1-.125 2.088-.55t1.812-1.075l1.425 1.45q-1.125.9-2.475 1.475t-2.85.725M16.9 5.7q-.825-.65-1.8-1.075t-2.075-.55V2.05q1.5.15 2.85.725T18.35 4.25zm2.85 12.625L18.325 16.9q.65-.825 1.075-1.812T19.95 13h2.025q-.15 1.5-.737 2.85t-1.488 2.475m.2-7.325q-.125-1.1-.55-2.087T18.325 7.1l1.425-1.425q.9 1.125 1.488 2.475t.737 2.85z"
-                  />
-                </svg>
+              <div class="icon-title">
+                <div class="item-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>Arrow Upload Progress SVG Icon</title>
+                    <path
+                      fill="currentColor"
+                      d="M11.025 21.95q-1.9-.2-3.537-1.037t-2.863-2.175T2.7 15.675T2 12q0-3.925 2.613-6.75t6.412-3.2v2.025q-2.975.375-5 2.613T4 12t2.025 5.313t5 2.612zm0-4.95v-6.175l-2.6 2.6L7.025 12l5-5l5 5l-1.425 1.4l-2.575-2.575V17zm2 4.95v-2.025q1.1-.125 2.088-.55t1.812-1.075l1.425 1.45q-1.125.9-2.475 1.475t-2.85.725M16.9 5.7q-.825-.65-1.8-1.075t-2.075-.55V2.05q1.5.15 2.85.725T18.35 4.25zm2.85 12.625L18.325 16.9q.65-.825 1.075-1.812T19.95 13h2.025q-.15 1.5-.737 2.85t-1.488 2.475m.2-7.325q-.125-1.1-.55-2.087T18.325 7.1l1.425-1.425q.9 1.125 1.488 2.475t.737 2.85z"
+                    />
+                  </svg>
+                </div>
+                <p class="item-title">رشد دانش آموزی</p>
               </div>
               <!--  -->
               <div class="about-item">
-                <p class="item-title">رشد دانش آموزی</p>
                 <p class="item-info">
                   موزش کل نگر با تمرکز بر شخصیت، رهبری و هوش هیجانی در کنار
                   دانشگاهیان..
@@ -312,27 +332,29 @@
             </div>
             <!--  -->
             <div class="items">
-              <div class="item-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 48 48"
-                >
-                  <title>More Four SVG Icon</title>
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
-                    d="m17 11l7.071-7.071L31.142 11l-7.07 7.071zm13 13l7.071-7.071L44.142 24l-7.07 7.071zM4 24l7.071-7.071L18.142 24l-7.07 7.071zm13 13l7.071-7.071L31.142 37l-7.07 7.071z"
-                  />
-                </svg>
+              <div class="icon-title">
+                <div class="item-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 48 48"
+                  >
+                    <title>More Four SVG Icon</title>
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="4"
+                      d="m17 11l7.071-7.071L31.142 11l-7.07 7.071zm13 13l7.071-7.071L44.142 24l-7.07 7.071zM4 24l7.071-7.071L18.142 24l-7.07 7.071zm13 13l7.071-7.071L31.142 37l-7.07 7.071z"
+                    />
+                  </svg>
+                </div>
+                <p class="item-title">مهارت های آینده</p>
               </div>
               <!--  -->
               <div class="about-item">
-                <p class="item-title">مهارت های آینده</p>
                 <p class="item-info">
                   رنامه های STEM، برنامه نویسی، روباتیک و کارآفرینی که دانش
                   آموزان را برای مشاغل آینده آماده می کند.
@@ -350,13 +372,10 @@
 
       <div class="education">
         <div class="education-box">
-          <div class="education-title">
-            <h1 class="title3">
-              چی دوست داری
-              <br />
-              <span class="title3-continue">یاد بگیری</span>
-            </h1>
-          </div>
+          <h1 class="title3">
+            چی دوست داری
+            <span style="color: #ffb700">یاد بگیری</span>
+          </h1>
           <div class="education-items">
             <div class="items2">
               <img
@@ -695,16 +714,7 @@
             </p>
           </div>
 
-          <div
-            style="
-              width: 100%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: space-around;
-              height: 130px;
-            "
-          >
+          <div class="preRegister-moreInfo">
             اگر قصد ثبت نام در مدرسه فرتاک را دارید روی دکمه پایین کلیک کنید تا
             مسئولین با شما تماس بگیرند
             <button class="preRegister-btn">پیش ثبت نام</button>
