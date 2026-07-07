@@ -330,12 +330,7 @@ button {
 }
 
 .title3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto;
-  width: 41%;
-  font-size: 45px;
+  text-align: center;
 }
 
 .education-items {
@@ -919,8 +914,7 @@ button {
   }
 
   .title3 {
-    width: 91%;
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .education-items {
