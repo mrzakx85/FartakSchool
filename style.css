@@ -235,12 +235,7 @@ button {
 }
 
 .title2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  width: 26%;
+  text-align: center;
   font-size: 45px;
 }
 
@@ -863,7 +858,7 @@ button {
   }
 
   .title2 {
-    width: 63%;
+    text-align: center;
     font-size: 30px;
   }
 
